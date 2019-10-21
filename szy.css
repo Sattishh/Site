@@ -1,0 +1,38 @@
+body {
+    margin: 0;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 800;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.primary-bg {
+    background-color: #DFDFDF;
+}
+
+section {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    color: black;
+}
+
+.bot-logo {
+    height: 400px;
+}
+
+.cta{
+    text-decoration: none;
+    border: solid 1px black;
+    color: black;
+    padding: 1em;
+}
+
+.cta:hover{
+    background-color: black;
+    color: #DFDFDF;
+    transition: 0.5s;
+}
